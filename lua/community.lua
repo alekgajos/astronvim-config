@@ -9,6 +9,6 @@ return {
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.python" },
-  { import = "astrocommunity.recipes.disable-tabline" },
+  -- { import = "astrocommunity.recipes.disable-tabline" },
   -- import/override with your plugins folder
 }

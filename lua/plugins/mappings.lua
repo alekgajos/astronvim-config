@@ -9,6 +9,7 @@ return {
           ["<C-K>"] = false,
           -- alternative Toggleterm trigger
           ["<C-\\>"] = { '<Cmd>execute v:count . "ToggleTerm"<CR>', desc = "Toggle terminal" },
+          ["<C-N>"] = { "<Cmd>stopinsert<CR>", desc = "Enter normal mode in terminal" },
         },
         -- show LSP references in Telescope
         n = {

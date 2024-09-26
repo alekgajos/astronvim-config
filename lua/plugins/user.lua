@@ -44,6 +44,14 @@ return {
     },
   },
 
+  -- restore floating terminal (Astronvim now uses horizontal by default)
+  {
+    "akinsho/toggleterm.nvim",
+    opts = {
+      direction = "float",
+    },
+  },
+
   -- linters
   {
     "mfussenegger/nvim-lint",
